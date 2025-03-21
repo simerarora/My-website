@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simer Arora - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    .fade-in { animation: fadeIn 1.2s ease-in; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hover-zoom:hover { transform: scale(1.03); transition: transform 0.3s ease-in-out; }
+    .section-card { transition: box-shadow 0.3s ease; }
+    .section-card:hover { box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); }
+    .section-heading { animation: pulse 2s infinite; }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.02); }
+    }
+    ul.list-disc li {
+      padding-left: 1.25rem;
+      text-indent: -1.25rem;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+ <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-center py-16 shadow-md fade-in">
+    <div class="max-w-6xl mx-auto px-6">
+      <h1 class="text-5xl font-extrabold mb-4">Simer Arora</h1>
+      <p class="text-2xl font-light mb-4">Talent Acquisition Lead | Strategic Hiring Partner | People-First Culture Builder</p>
+      
+      <p class="text-lg mb-2">📧 simerarora.001@gmail.com | 📞 78954-59519</p>
+      <a href="https://www.linkedin.com/in/simerarora" class="text-white underline text-lg hover:text-yellow-300 transition">LinkedIn Profile</a>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="#about" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">About Me</a>
+        <a href="#competencies" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">Core Competencies</a>
+        <a href="#experience" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">Experience</a>
+        <a href="#education" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">Education</a>
+        <a href="#technical" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">Technical Proficiency</a>
+        <a href="#certifications" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">Certifications</a>
+        <a href="#achievements" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">Achievements</a>
+        <a href="#contact" class="bg-white text-indigo-600 px-4 py-2 rounded shadow hover:bg-gray-100 font-semibold">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Sections -->
+  <div class="max-w-6xl mx-auto px-6 py-12 space-y-12 fade-in">
+
+    <!-- About Me -->
+    <section id="about" class="bg-white p-8 rounded-lg shadow-md section-card hover-zoom">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-4 section-heading">About Me</h2>
+      <ul class="list-disc list-inside space-y-2 text-lg">  
+        <li>Results-driven Talent Acquisition Leader with over 7+ years of experience in hiring for both tech and non-tech roles across GCC, GTM function, and core technology teams.</li>
+        <li>Proven expertise in full cycle recruitment, stakeholder management, employer branding, diversity hiring, internal mobility, process optimization and talent strategy development.</li>
+        <li>Adept at utilizing AI-driven recruitment tools, X-Ray Searches, Boolean search techniques, and market mapping strategies to enhance hiring efficiency.</li>
+        <li>Strong expertise in hiring for AI, Cloud, Engineering, Product, Data Science, Sales, Finance & Business strategy roles.</li>
+        <li>Strong ability to collaborate with business leaders to drive recruitment initiatives aligned with organizational goals.</li>
+        <li>Skilled in ensuring seamless candidate experiences & passionate about fostering an inclusive hiring process and delivering innovative solutions to enhance internal recruitment.</li>
+        <li>Skilled in high-volume hiring, niche talent acquisition, and executive search.</li>
+      </ul>
+    </section>
+<!-- Core Competencies -->
+    <section id="competencies" class="bg-white p-8 rounded-lg shadow-md section-card hover-zoom">
+      <h2 class="text-3xl font-bold text-purple-600 mb-4 section-heading">Core Competencies</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 list-disc list-inside gap-y-2 text-lg">
+        <li>Technical Hiring (Software Engineering, Data Science, Cloud, DevOps, Security, Product, AI/ML)</li>
+        <li>Non-Tech Hiring (GTM, Sales, Marketing, Finance, HR, Operations, Strategy, Customer Success)</li>
+        <li>GCC Hiring & Expansion Strategy</li>
+        <li>Internal Recruitment & Hiring Strategy</li>
+        <li>Process Improvement & Internal Mobility</li>
+        <li>Employer Branding & Talent Pipelining</li>
+        <li>Diversity & Inclusion Hiring Initiatives</li>
+        <li>Recruitment Data Analytics & Market Mapping</li>
+        <li>Passive & Active Sourcing (LinkedIn Recruiter, Boolean Search, X-Ray)</li>
+        <li>Stakeholder management & Scaling Hiring Programs</li>
+        <li>Campus Recruitment & Leadership Hiring</li>
+      </ul>
+    </section>
+<!-- Professional Experience -->
+<section id="experience" class="bg-white p-8 rounded-lg shadow-md section-card hover-zoom">
+  <h2 class="text-3xl font-bold text-indigo-600 mb-4 section-heading">Professional Experience</h2>
+  <div class="space-y-6 text-lg">
+    <div>
+      <h3 class="text-xl font-semibold">Snapfind | Remote, India</h3>
+      <p class="italic text-sm">Freelance Talent Acquisition Consultant | Nov 2024 – Present</p>
+      <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+        <li>Handling tech and non-tech hiring for multiple industries, covering roles in Cloud engineering, product, AI/ML, sales, marketing, finance, HR, and customer success</li>
+        <li>Sharing sourced CVs on the client’s recruitment portals, ensuring a steady pipeline of qualified candidates</li>
+        <li>Utilizing various sourcing channels, including LinkedIn Recruiter, X-Ray Search, job boards, and referral networks</li>
+        <li>Coordinating with hiring managers and recruitment teams to understand role requirements</li>
+        <li>Managing multiple hiring pipelines with quick turnaround times</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold">ION Trading India Pvt Ltd | Noida, India</h3>
+      <p class="italic text-sm">Senior Talent Partner – Early Careers & Lateral | Sept 2021 – Oct 2024</p>
+      <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+        <li>Led a team of 4 recruiters and 2 sourcers, improving hiring efficiency by 40%</li>
+        <li>Recruited for roles including Cloud Engineers, Software Developers, Data Scientists, Project Managers, UX Designers, AVPs, SDRs, Sales Analysts, Product Managers</li>
+        <li>Closed 37 Software Developers and 48 Product Support Analysts in 4 months</li>
+        <li>Hired over 300 professionals across engineering, finance, HR, and product teams</li>
+        <li>Developed Leadership Development Program (LDP), hiring hundreds of LDPs, interns, Cloud Engineers, Talent Acquisition professionals, and more</li>
+        <li>Partnered with IITs, NITs, and Tier 1 colleges across India</li>
+        <li>Led Campus Connect programs and employer branding activities</li>
+        <li>Increased diversity hiring from 12% to 30%</li>
+        <li>Developed internship retention strategy achieving 96% conversion rate</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold">Walmart Global Tech (via Allegis) | Gurgaon, India</h3>
+      <p class="italic text-sm">Talent Acquisition Specialist | Apr 2021 – Sept 2021</p>
+      <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+        <li>Managed end-to-end recruitment for Finance, Sales, software engineering, data science, AI and cloud roles</li>
+        <li>Worked closely with GCC teams to expand Walmart's workforce in India</li>
+        <li>Led virtual campus hiring program and optimized early careers strategy</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold">Accenture Solutions Pvt Ltd | Gurgaon, India</h3>
+      <p class="italic text-sm">Senior Process Associate | Jan 2020 – Mar 2021</p>
+      <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+        <li>Assisted in onboarding and training processes for new hires</li>
+        <li>Streamlined operations and improved internal processes</li>
+        <li>Acted as liaison between clients and internal teams to resolve concerns</li>
+        <li>Focused on process optimization and service improvement</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold">Tek Search Enterprises LLP | Delhi, India</h3>
+      <p class="italic text-sm">Senior Sourcing Associate – Talent Acquisition | Oct 2017 – Jan 2020</p>
+      <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+        <li>Handled high-volume requisition and hired for Engineering, Finance, Sales, AI, Network and Cloud roles</li>
+        <li>Collaborated on recruitment strategies and built pipelines aligned to role requirements</li>
+        <li>Built ATS database using PC Recruiter</li>
+        <li>Recruited for Fortune 500 clients across IT, Finance, and Consulting</li>
+        <li>Reduced time-to-fill by 30% through proactive hiring strategies</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="bg-white p-8 rounded-lg shadow-md section-card hover-zoom">
+  <h2 class="text-3xl font-bold text-purple-600 mb-4 section-heading">Education</h2>
+  <p class="text-lg">Bachelor of Technology (B.Tech), CGPA: 8.0</p>
+  <p class="text-gray-700">Uttarakhand Technical University (2013 – 2017)</p>
+</section>
+
+<!-- Technical Proficiency -->
+<section id="technical" class="bg-white p-8 rounded-lg shadow-md section-card hover-zoom">
+  <h2 class="text-3xl font-bold text-purple-600 mb-4 section-heading">Technical Proficiency</h2>
+  <ul class="list-disc list-inside text-lg space-y-2">
+    <li>Applicant Tracking Systems (ATS): Smart Recruiter, Lever, PC Recruiter, JobDiva</li>
+    <li>Recruitment Tools: LinkedIn Recruiter, Naukri.com, Indeed, HireEZ, SeekOut</li>
+    <li>AI & Automation: Chatbots, Skillate for Resume Parsing, Pymetrics, Programmatic Job Advertising</li>
+    <li>Data Analytics: Excel (Pivot Tables, VLOOKUP), Power BI</li>
+  </ul>
+</section>
+
+<!-- Certifications -->
+<section id="certifications" class="bg-white p-8 rounded-lg shadow-md section-card hover-zoom">
+  <h2 class="text-3xl font-bold text-indigo-600 mb-4 section-heading">Certifications</h2>
+  <ul class="list-disc list-inside text-lg space-y-2">
+    <li><a href="https://drive.google.com/file/d/15_Zu6p-7BxPk1XEjKwEEEawY7ax4kmid/view?usp=sharing" class="text-blue-700 underline" target="_blank">Recruiting Talent with Social Media</a></li>
+    <li><a href="https://drive.google.com/file/d/15a4LgVXAO_Y_pzlD1dja2jtYaZEFL7fQ/view?usp=sharing" class="text-blue-700 underline" target="_blank">Hirist Tech Recruitment Certification</a></li>
+    <li><a href="https://devskiller.com/hr-certification/2VQrpAfvEaWB5hd5otWZ7E" class="text-blue-700 underline" target="_blank">DevSkiller Tech Recruitment Certified Professional</a></li>
+  </ul>
+</section>
+
+<!-- Achievements -->
+<section id="achievements" class="bg-white p-8 rounded-lg shadow-md section-card hover-zoom">
+  <h2 class="text-3xl font-bold text-indigo-600 mb-4 section-heading">Achievements</h2>
+  <ul class="list-disc list-inside text-lg space-y-2">
+    <li>Closed 4 major Cloud and Network projects at ION Trading with 6+ hires per project in record time</li>
+    <li>Best Performer Awards at ION Trading (Q4 2021, Q2 2022, Q3 2023)</li>
+    <li>Star of Business Award for exceptional performance at Accenture</li>
+    <li>Achieved a 24% increase in diversity hiring at ION Trading</li>
+    <li>Developed an AI-driven candidate pipeline, reducing hiring timelines by 35%</li>
+  </ul>
+</section>
+
+<!-- Contact Me -->
+<section id="contact" class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-8 rounded-lg shadow-md text-center section-card hover-zoom">
+  <h2 class="text-3xl font-bold mb-4 section-heading">Contact Me</h2>
+  <p class="text-lg">Email: <a href="mailto:simerarora.001@gmail.com" class="underline hover:text-yellow-300">simerarora.001@gmail.com</a></p>
+  <p class="text-lg">Phone: 78954-59519</p>
+  <p class="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/simerarora" class="underline hover:text-yellow-300" target="_blank">linkedin.com/in/simerarora</a></p>
+</section>
+<!-- Hire ME -->
+<section id="HireMe" class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-8 rounded-lg shadow-md text-center section-card hover-zoom">
+<h2 class="text-3xl font-bold mb-4 section-heading">😊 Hire Me 😊 </h2>
+</section>
+  </div>
+</body>
+</html>
